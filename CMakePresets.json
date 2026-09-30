@@ -9,10 +9,11 @@
   "configurePresets": [
     {
       "name": "debug",
+      "binaryDir": "build",
       "cacheVariables": {
-        "CMAKE_BUILD_TYPE": "Debug"
-      },
-      "binaryDir": "build"
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_PREFIX_PATH": "/opt/homebrew"
+      }
     }
   ]
 }
